@@ -177,12 +177,12 @@ const Contact = () => {
       
       <Footer>
         <SocialLinks>
-          <a href="#" aria-label="Facebook">FB</a>
-          <a href="#" aria-label="Twitter">TW</a>
-          <a href="#" aria-label="Instagram">IG</a>
-          <a href="#" aria-label="Pinterest">PT</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">TW</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+          <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">PT</a>
         </SocialLinks>
-        <p> {new Date().getFullYear()} Amanda Portfolio • Photographer</p>
+        <p>© {new Date().getFullYear()} Arowona Portfolio • Photographer</p>
       </Footer>
     </ContactContainer>
   );

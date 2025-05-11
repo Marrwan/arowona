@@ -225,7 +225,7 @@ const Home = () => {
           <PhotographerInfo>
             <PhotographerTitle>Food, Product and Nature Photographer</PhotographerTitle>
             <PhotographerDescription>
-              Amanda is a photographer specializing in food and product imagery, working with restaurants and brands to create visually delicious photos that elevate their brands. I capture the colors of their food story.
+              Arowona is a photographer specializing in food and product imagery, working with restaurants and brands to create visually delicious photos that elevate their brands. I capture the colors of their food story.
             </PhotographerDescription>
             <ExploreButton whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               EXPLORE
