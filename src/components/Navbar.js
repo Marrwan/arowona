@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
+import Logo from './Logo';
 
 const Nav = styled.nav`
   padding: 1rem 2rem;
@@ -15,13 +16,6 @@ const Nav = styled.nav`
   @media (max-width: 768px) {
     padding: 1rem;
   }
-`;
-
-const Logo = styled(Link)`
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
 `;
 
 const NavLinks = styled.div`
@@ -88,7 +82,7 @@ const Navbar = () => {
       boxShadow: scrolled ? '0 2px 10px rgba(0, 0, 0, 0.1)' : 'none',
       transition: 'all 0.3s ease'
     }}>
-      <Logo to="/">AB</Logo>
+      <Logo to="/" />
       <NavLinks>
         <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
           HOME
